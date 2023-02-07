@@ -1,22 +1,16 @@
 // EXERCÍCIO 1:
 // a)
-// (FORMA 1) => Utilizando prompt para perguntar o nome do usuário:
-// const nomeDoUsuario = prompt('Qual é o seu nome?');
+// // (FORMA 1) => Utilizando prompt para perguntar o nome do usuário:
+// const nome = prompt('Qual é o seu nome?');
 
-// function imprimirNomeUsandoPrompt() {
-//     console.log('Olá,', nomeDoUsuario);
+// // (FORMA 2) => Nome salvo em uma variável
+// // const nome = 'Amanda';
+
+// function imprimirNome(nome) {
+//     console.log('Olá,', nome);
 // }
 
-// imprimirNomeUsandoPrompt();
-
-// (FORMA 2) => Nome salvo em uma variável
-// const meuNome = 'Amanda';
-
-// function imprimirNome() {
-//     console.log('Olá,', meuNome);
-// }
-
-// imprimirNome();
+// imprimirNome(nome);
 
 // ====================== //
 
