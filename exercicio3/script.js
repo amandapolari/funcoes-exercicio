@@ -1,5 +1,5 @@
 // EXERCÍCIO 3
-// a) Criando 4 funções:
+// 📌 a) Criando 4 funções:
 function somarNumeros(num1, num2) {
   const resultadoDaSoma = num1 + num2;
   return resultadoDaSoma;
@@ -20,19 +20,19 @@ function dividirNumeros(num1, num2) {
   return resultadoDaDivisao;
 }
 
-// b) Recebendo números do usuário:
+// 📌 b) Recebendo números do usuário:
 const primeiroNumero = Number(prompt("Digite seu primeiro número:"));
 const segundoNumero = Number(prompt("Digite seu segundo número:"));
 
-// c) Invocando funções:
-// d) Salvando em variáveis e (...):
+// 📌 c) Invocando funções:
+// 📌 d) Salvando em variáveis e (...):
 
 const resultadoFinalDaSoma = somarNumeros(primeiroNumero, segundoNumero);
 const resultadoFinalDaSubtracao = subtrairNumeros(primeiroNumero, segundoNumero);
 const resultadoFinalDaMultiplicacao = multiplicarNumeros(primeiroNumero, segundoNumero);
 const resultadoFinalDaDivisao = dividirNumeros(primeiroNumero, segundoNumero);
 
-// d) (...)imprimindo no console:
+// 📌 d) (...)imprimindo no console:
 console.log(`
 O resultado da soma de ${primeiroNumero} com ${segundoNumero} é igual a: ${resultadoFinalDaSoma};
 `);

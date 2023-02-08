@@ -1,5 +1,5 @@
 // EXERCÍCIO 1:
-// a)
+// 📌 a)
 // // (FORMA 1) => Utilizando prompt para perguntar o nome do usuário:
 // const nome = prompt('Qual é o seu nome?');
 
@@ -12,7 +12,7 @@
 // }
 // imprimirNome(nome);
 
-// b)
+// 📌 b)
 // const numero1 = 1;
 // const numero2 = 2;
 // const numero3 = 3;
@@ -50,7 +50,7 @@
 //  multiplicarNumeros(numero9);
 //  multiplicarNumeros(numero10);
 
-// c)
+// 📌 c)
 // c) -> a)
 const imprimirNome = (nome) => {
     const frase = `Olá ${nome}!`
