@@ -6,22 +6,11 @@
 // (FORMA 2) => Nome salvo em uma variável
 // const nome = 'Amanda';
 
+//(CÓDIGO PARA AS DUAS FORMAS):
 // function imprimirNome(nome) {
 //     console.log('Olá,', nome);
 // }
-
 // imprimirNome(nome);
-
-// (FORMA 3) => Com return
-// const nome = 'Amanda';
-
-// function imprimirNome(nome) {
-//     const frase = `Olá, ${nome}`
-//     return frase;
-// }
-// console.log(imprimirNome(nome))
-
-// ====================== //
 
 // b)
 // const numero1 = 1;
@@ -61,16 +50,14 @@
 //  multiplicarNumeros(numero9);
 //  multiplicarNumeros(numero10);
 
-// ====================== //
-
 // c)
 // c) -> a)
-// const imprimirNome = (nome)=>{
-//     const frase = `Olá ${nome}!`
-//     console.log(frase)
-// }
-// const nome = 'Amanda'
-// imprimirNome(nome);
+const imprimirNome = (nome) => {
+    const frase = `Olá ${nome}!`
+    console.log(frase);
+}
+const nome = 'Amanda';
+imprimirNome(nome);
 
 // c) -> b)
 const numero1 = 1;
