@@ -42,7 +42,7 @@
 
 // 📌 c)
 // (FORMA 1) => Números chumbados em uma variável
-// const numero = 4;
+const numero = 4;
 
 // (FORMA 2) => Recebendo o número do usuário
 // const numero = Number(prompt('Digite um número:'));
@@ -59,19 +59,19 @@
 
 // 📌 d)
 // (FORMA 1) => Números chumbados em uma variável
-// const salario = 3500;
+const salario = 3500;
 
 // (FORMA 2) => Recebendo o número do usuário
 // const salario = Number(prompt('Digite o valor do seu salário'));
 
 // (CÓDIGO PARA AS DUAS FORMAS:)
-// function descontarInss(salario) {
-//     const porcentDeDescontoInss = 0.1;
-//     const valorDoDescontoInss = salario * porcentDeDescontoInss;
-//     const salarioLiquido = salario - valorDoDescontoInss;
-//     return salarioLiquido;
-// }
-// const resultadoFinal = descontarInss(salario);
-// console.log(`
-// O salário líquido é igual a: R$ ${resultadoFinal}
-// `)
+function calcularSalarioLiquido(salario) {
+    const porcentDeDescontoInss = 0.1;
+    const valorDoDescontoInss = salario * porcentDeDescontoInss;
+    const salarioLiquido = salario - valorDoDescontoInss;
+    return salarioLiquido;
+}
+const resultadoFinal = calcularSalarioLiquido(salario);
+console.log(`
+O salário líquido é igual a: R$ ${resultadoFinal}
+`)

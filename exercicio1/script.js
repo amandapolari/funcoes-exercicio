@@ -3,14 +3,23 @@
 // // (FORMA 1) => Utilizando prompt para perguntar o nome do usuário:
 // const nome = prompt('Qual é o seu nome?');
 
-// // (FORMA 2) => Nome salvo em uma variável
-// // const nome = 'Amanda';
+// (FORMA 2) => Nome salvo em uma variável
+// const nome = 'Amanda';
 
 // function imprimirNome(nome) {
 //     console.log('Olá,', nome);
 // }
 
 // imprimirNome(nome);
+
+// (FORMA 3) => Com return
+// const nome = 'Amanda';
+
+// function imprimirNome(nome) {
+//     const frase = `Olá, ${nome}`
+//     return frase;
+// }
+// console.log(imprimirNome(nome))
 
 // ====================== //
 
@@ -55,6 +64,15 @@
 // ====================== //
 
 // c)
+// c) -> a)
+// const imprimirNome = (nome)=>{
+//     const frase = `Olá ${nome}!`
+//     console.log(frase)
+// }
+// const nome = 'Amanda'
+// imprimirNome(nome);
+
+// c) -> b)
 const numero1 = 1;
 const numero2 = 2;
 const numero3 = 3;
